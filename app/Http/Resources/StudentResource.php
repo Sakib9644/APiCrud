@@ -10,10 +10,10 @@ class StudentResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'fname' => $this->fname,
-            'lastname' => $this->lastname,
+            'first_name' => $this->first_name,
+            'last_name' => $this->last_name,
             'email' => $this->email,
-            
+            'test' => 'abcd',
         ];
     }
 }
